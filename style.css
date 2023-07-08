@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e1e1e1;
+}
+.home {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  height: 99vh;
+  font-family: "DM Serif Display", serif;
+}
+.heading {
+  align-self: center;
+}
+.img > img {
+  align-self: center;
+  height: 542.6px;
+  width: auto;
+  margin-left: 130px;
+}
+.img {
+  align-self: center;
+  max-height: 542.6px;
+  width: auto;
+}
+h1 {
+  font-size: 52px;
+  text-align: center;
+  color: #324241;
+}
+h2 {
+  font-size: 95px;
+  text-align: center;
+  color: #811f2c;
+}
+.heading > p {
+  color: #324241;
+  font-size: 20px;
+  text-align: center;
+  /* font-weight: bold; */
+}
+.about {
+  display: inline-flex;
+  height: 80vh;
+  width: 100%;
+  font-family: "Bree Serif", serif;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 20vh;
+}
+.ask {
+  background-color: #811f2c;
+  width: 45%;
+  height: 317.2px;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  align-self: center;
+  color: #e1e1e1;
+  font-size: 50px;
+}
+.info > p {
+  margin: 0px 60px;
+  margin-left: 150px;
+  font-size: 27px;
+  /* align-items: center; */
+}
+.kgs {
+  color: #811f2c;
+  font-size: 2.2rem;
+}
+.web-dev {
+  color: #811f2c;
+  font-size: 2.2rem;
+}
+.gd {
+  color: #811f2c;
+  font-size: 2.2rem;
+}
+.bug {
+  padding-bottom: 50px;
+}
+.hobby {
+  font-family: "DM Serif Display", serif;
+}
+h4 {
+  text-align: center;
+  font-size: 60px;
+  color: #324241;
+}
+.love {
+  font-size: 80px;
+  position: relative;
+  top: 5px;
+  color: #811f2c;
+  z-index: 100;
+  background-image: url(./images/heart.png);
+  background-repeat: no-repeat;
+  background-position: center 60%;
+  background-size: cover;
+  padding: 20px;
+  background-size: 380px;
+}
+img[src="./images/heart.png"] {
+  height: 200px;
+  position: relative;
+  bottom: 160px;
+  left: 787px;
+}
+/* swim fb */
+.swim {
+  display: inline-flex;
+  margin-top: 80px;
+}
+/* items of it */
+img[src="./images/izaan swimming.gif"] {
+  height: 250px;
+  max-width: 390px;
+  margin-left: 150px;
+  /* border: solid 20px #324241; */
+}
+.swim-des {
+  margin: 0px 250px;
+  align-self: center;
+  font-size: 23px;
+}
+.bug2 {
+  color: #811f2c;
+}
+.snooker {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 150px;
+}
+img[src="./images/izaan snooker.jpeg"] {
+  height: 250px;
+  width: 390px;
+  margin-right: 200px;
+}
+.snooker-des {
+  margin-right: 220px;
+  align-self: center;
+  font-size: 23px;
+  margin-left: 270px;
+}
+.photo {
+  color: #811f2c;
+}
+/* mid slide */
+.work {
+  margin: 300px 0px;
+}
+/* last slide */
+img[src="./images/contact izaan.png"] {
+  height: 450px;
+  z-index: 200;
+}
+.contact-head {
+  display: flex;
+  justify-content: center;
+}
+.contact-top {
+  display: inline-flex;
+  flex-direction: column;
+}
+h6 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+  color: #811f2c;
+}
+.icon {
+  height: 85px;
+  margin-right: 8px;
+  position: relative;
+  bottom: 4px;
+}
+.contact1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+  font-size: 30px;
+  align-items: center;
+  font-family: "DM Serif Display", serif;
+}
+.number {
+  margin-right: 400px;
+}
+img[src="./images/linkedin.png"] {
+  margin-left: 400px;
+}
+.contact2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: "DM Serif Display", serif;
+  align-items: center;
+  font-size: 30px;
+}
+.gmail {
+  margin-right: 70px;
+}
+img[src="./images/insta.png"] {
+  margin-left: 70px;
+}
+.contact1 > a {
+  text-decoration: none;
+  color: #811f2c;
+}
+.contact2 > a {
+  text-decoration: none;
+  color: #811f2c;
+  /* color: #324241; */
+}
+.bug10 {
+  display: inline-flex;
+  justify-content: center;
+}
+h5 {
+  text-align: center;
+  font-size: 60px;
+  color: #811f2c;
+  font-family: "DM Serif Display", serif;
+  margin-bottom: 50px;
+}
+.ok {
+  font-size: 80px;
+  color: #324241;
+  position: relative;
+  top: 5px;
+}
+img[src="./images/graphic.png"] {
+  height: 250px;
+}
+.contact-info {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 1150px) {
+  .work {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 80%; */
+  }
+  .fix4 {
+    display: flex;
+    justify-content: center;
+  }
+  h5 {
+    font-size: 50px;
+  }
+  .ok {
+    font-size: 55px;
+    position: relative;
+    bottom: 100px;
+  }
+  img[src="./images/graphic.png"] {
+    height: 100px;
+  }
+  .home {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .img {
+    position: relative;
+    right: 60px;
+    margin-bottom: 100px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .ask {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 50px;
+    padding: 100px 0px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 65px;
+  }
+  .heading > p {
+    font-size: 15px;
+  }
+  .bug {
+    font-size: 20px;
+  }
+  .kgs {
+    font-size: 25px;
+  }
+  .gd {
+    font-size: 25px;
+  }
+  .web-dev {
+    font-size: 25px;
+  }
+  br {
+    display: none;
+  }
+  .swim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img[src="./images/izaan swimming.gif"] {
+    padding: 0;
+    margin: 0;
+  }
+  .swim-des {
+    margin: 50px 50px 10px 50px;
+    padding: 0;
+    text-align: center;
+  }
+  h4 {
+    margin-bottom: 100px;
+    font-size: 40px;
+  }
+  .love {
+    font-size: 60px;
+    background-size: 300px;
+    margin: 0px;
+  }
+  .snooker {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  img[src="./images/izaan snooker.jpeg"] {
+    padding: 0;
+    margin: 0;
+  }
+  .snooker-des {
+    margin: 50px 50px 10px 50px;
+    padding: 0;
+    text-align: center;
+  }
+  img[src="./images/contact izaan.png"] {
+    height: 350px;
+  }
+  .contact1 {
+    all: unset;
+  }
+  .contact2 {
+    all: unset;
+  }
+  .icon {
+    all: unset;
+  }
+  img[src="./images/linkedin.png"] {
+    all: unset;
+  }
+  img[src="./images/call.png"] {
+    all: unset;
+  }
+  img[src="./images/gmail.png"] {
+    all: unset;
+  }
+  img[src="./images/insta.png"] {
+    all: unset;
+  }
+  .number {
+    all: unset;
+  }
+  .gmail {
+    all: unset;
+  }
+  .insta {
+    all: unset;
+  }
+  .linkedin {
+    all: unset;
+  }
+
+  .icons {
+    margin-top: 200px;
+  }
+  img[src="./images/linkedin.png"] {
+    height: 60px;
+    margin-top: 20px;
+  }
+  img[src="./images/call.png"] {
+    height: 60px;
+    margin-top: 20px;
+  }
+  img[src="./images/gmail.png"] {
+    height: 60px;
+    margin-top: 20px;
+  }
+  img[src="./images/insta.png"] {
+    height: 60px;
+    margin-top: 20px;
+  }
+  .contact1 {
+    font-family: "DM Serif Display", serif;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .contact2 {
+    font-family: "DM Serif Display", serif;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h6 {
+    font-size: 47px;
+  }
+  .info > p {
+    /* margin-left: 150px; */
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px 31px;
+  }
+  .nav {
+    margin: 0;
+    padding: 0;
+  }
+  img[src="./images/contact izaan.png"]{
+    height: 350px;
+    width: auto;
+  }
+}
+@media (max-width: 550px) {
+  img[src="./images/izaan 1.png"]{
+    max-width: 350px;
+    height: auto;
+  }
+  img[src="./images/izaan snooker.jpeg"]{
+    width: auto;
+    max-width: 350px;
+  }
+    img[src="./images/izaan swimming.gif"] {
+      max-width: 350px;
+
+    }
+    .resp{
+      font-size: 15px;
+    }
+    img[src="./images/contact izaan.png"]{
+      height: 315.2px;
+      width: 300px;
+    }
+    h1{
+padding: 0px 10px;
+    }
+    h4{
+      padding: 0px 10px;
+    }
+    .nav{
+      justify-content: center;
+    }
+
+}
+/* gtp */
+.reddit {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #811f2c;
+  color: #324241;
+  z-index: 2000;
+}
+li {
+  color: black;
+
+  text-decoration: none;
+}
+
+.show-reddit {
+  opacity: 1;
+}
+.custom-text-color {
+  color: #e1e1e1;
+  font-family: "DM Serif Display", serif;
+}
+.nav-link.custom-text-color:hover {
+  color: #000000; /* Custom text color on hover */
+}
