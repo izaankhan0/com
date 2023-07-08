@@ -499,3 +499,6 @@ li {
 .nav-link.custom-text-color:hover {
   color: #000000; /* Custom text color on hover */
 }
+html{
+  scroll-behavior: smooth;
+}
