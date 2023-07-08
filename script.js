@@ -2,10 +2,10 @@ function scrollToTop() {
     window.scrollTo(0, 0);
 }
 
-// Scroll to a specific position on the page
-function scrollToPosition(position) {
-    window.scrollTo(0, position);
-}
+// // Scroll to a specific position on the page
+// function scrollToPosition(position) {
+//     window.scrollTo(0, position);
+// }
 
 // Show the navigation bar when the mouse enters the top 20px of the screen
 function showNavbar() {
