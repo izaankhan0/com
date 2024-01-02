@@ -654,7 +654,7 @@ margin-top: 60px;
   transition: 300ms linear;
 }
 .sites > a:hover{
-  transform: scale(1.25);
+  transform: scale(1.05);
   color: #324241;
 }
 
