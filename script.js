@@ -33,3 +33,4 @@ window.addEventListener('mousemove', function(e) {
         hideNavbar();
     }
 });
+
