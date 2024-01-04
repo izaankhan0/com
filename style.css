@@ -637,3 +637,139 @@ h8{
       font-weight: 700;
     }
 }
+
+.reviews > h6 {
+  text-align: center;
+  font-size: 44px;
+  padding: 30px 0px;
+  /* text-decoration: underline wavy; */
+  text-underline-offset: 30px;
+  margin-bottom: 20px;
+}
+.rev-text {
+  background-color: #212121;
+  padding: 70px 60px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  /* margin-top: 60px; */
+  font-family: "DM Serif Display", serif;
+
+  border-radius: 10px;
+  transition: ease-in-out 300ms;
+  color: rgb(219, 219, 219);
+}
+.rev-color {
+  height: 10px;
+  background-color: none;
+  width: 90%;
+  margin: 0px auto;
+  background-color: #d63447;
+  border-radius: 2px;
+}
+.review-sub1 {
+  margin: 30px 30px;
+}
+.quote {
+  font-size: 100px;
+  text-align: center;
+}
+.review-name {
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  color: #000000;
+  font-family: "DM Serif Display", serif;
+font-weight: 700;
+
+}
+img[src="./images/izaan dp.jpeg"] {
+  height: 120px;
+  border-radius: 100%;
+}
+img[src="./images/zaki.JPG"] {
+  height: 120px;
+  border-radius: 100%;
+}
+img[src="./images/ismail.JPG"] {
+  height: 120px;
+  border-radius: 100%;
+}
+.review-image-holder {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 60px;
+}
+.review-name-2 {
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  color: #3c3c3c;
+  font-family: "DM Serif Display", serif;
+font-weight: 700;
+}
+
+.reviews-subs {
+  display: none;
+}
+.active {
+  display: block;
+  animation: scrollAnimation 0.5s forwards;
+}
+
+.transition-out {
+  animation: scrollOutAnimation 0.5s forwards;
+}
+
+@keyframes scrollAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scrollOutAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.dot-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #940000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #147700;
+}
+
+.reviews {
+  margin: 38vh 0px;
+}
+@media (max-width: 440px){
+  .rev-text{
+      font-size: 17.5px;
+      line-height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
+.rev-text{
+  background-color: #283f31;;
+}
