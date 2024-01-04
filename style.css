@@ -567,24 +567,24 @@ h7{
   margin-bottom: 100px;
   font-size: 50px;
 }
-.websites{
-}
 .sites > a  > p{
   font-family: "DM Serif Display", serif;
 font-size: 20px;
 text-align: center;
-margin-top: 60px;
+margin-top: 40px;
+font-weight: 700;
+
 
 }
 .sites > a{
   text-decoration: none;
   list-style: none;
   color: #811f2c;
-  transition: 300ms linear;
+  transition: 100ms linear;
 }
 .sites > a:hover{
-  transform: scale(1.05);
-  color: #324241;
+  transform: scale(1.1);
+  color: #147700;
 }
 
 .fix-1{
@@ -611,4 +611,29 @@ margin-top: 60px;
 }
 .sites{
   width: 30%;
+}
+h8{
+  display: flex;
+  justify-content: center;
+  font-family: "DM Serif Display", serif;
+  /* margin-bottom: 100px; */
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (max-width:900px){
+    .websites{
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+    }
+    .sites{
+      width: 90%;
+    }
+    .sites > a > p{
+      font-size: 30px;
+      margin: 20px 0px 80px 0px;
+      font-weight: 700;
+    }
 }
